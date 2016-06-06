@@ -1,0 +1,94 @@
+package minheap;
+
+import com.maxeler.maxcompiler.v2.kernelcompiler.Kernel;
+import com.maxeler.maxcompiler.v2.kernelcompiler.KernelParameters;
+import com.maxeler.maxcompiler.v2.kernelcompiler.types.base.DFEVar;
+import com.maxeler.maxcompiler.v2.kernelcompiler.types.base.DFEType;
+
+class MinHeapKernel extends Kernel {
+    private static final DFEType type_cnt = dfeInt(32);
+    
+	MinHeapKernel(KernelParameters parameters) {
+		super(parameters);
+		
+		final int k = 3;
+		DFEVar kDEF = constant.var(dfeUInt(32), 3);
+		DFEVar count = control.count.simpleCounter(32);
+		DFEVar zero = constant.var(dfeInt(32), 0);
+	    DFEVar readX = count < kDEF;
+	    DFEVar readY = count >= kDEF;
+	    
+		// Input
+		DFEVar xStream = io.input("x", dfeInt(32), readX);
+        DFEVar heap[] = new DFEVar[3];
+        for (int x=0; x< k; x++) {
+            heap[x] = stream.offset(xStream, x);    
+        }
+        
+        DFEVar yStream = io.input("y", dfeInt(32), readY);
+        DFEVar ys[] = new DFEVar[10];
+        for (int x=0; x< 10; x++) {
+            ys[x] =  (count + x) < 16 ? stream.offset(yStream, x) : zero;    
+        }
+        // debug.simPrintf("heap[0]: %d\n", heap[0]);
+        for (int y=0; y< y; y++) {
+            heap[y] = zero;    
+        }
+        
+        for (int x = 0; x < 10; x++) {
+            
+        heap[0] = (ys[x] > heap[0]) ? ys[x] : heap[0];
+        
+        // MinHeapify(heap, k);
+        int le = 0;
+    	int ri = 0;
+    	DFEVar leDEF = type_cnt.newInstance(this);
+    	DFEVar riDEF = type_cnt.newInstance(this);
+    	DFEVar largestDEF = type_cnt.newInstance(this);
+    	DFEVar iDEF = type_cnt.newInstance(this);
+    	DFEVar jDEF = type_cnt.newInstance(this);
+    	DFEVar next = type_cnt.newInstance(this);
+    	DFEVar temp = constant.var(dfeInt(32), 0);
+        
+        next = zero;
+        //debug.simPrintf("heap[0]: %d\n", heap[0]);
+    	for (int i = 0; i < k; i++) {
+    	    iDEF = zero + i;
+    	    le = left(i);
+    	    ri = right(i);
+    	    leDEF = zero + le;
+    	    riDEF = zero + ri;
+    	    largestDEF = zero + i;
+    	    if (le < k) {    
+    	        largestDEF = (heap[le] < heap[i]) ? leDEF : largestDEF;
+    	    }
+
+    	    if (ri < k) {
+    	        for (int j = 0; j < k; j++) {
+    	            jDEF = zero + j;
+    	            largestDEF = (jDEF.eq(largestDEF) & heap[ri] < heap[j]) ? riDEF : largestDEF;
+    	        }
+    	    }
+    	    
+    	    //for (int j = 0; j < k; j++) {
+            //    debug.simPrintf("%d ", heap[j]);        
+    	    //}   
+    	    //debug.simPrintf("\n");
+    	    
+    	    temp = heap[i];
+    	    for (int j = 0; j < k; j++) {
+    	        jDEF = zero + j;
+                heap[i] = (largestDEF.neq(iDEF) & iDEF.eq(next) & jDEF.eq(largestDEF)) ? heap[j] : heap[i];
+                heap[j] = (largestDEF.neq(iDEF) & iDEF.eq(next) & jDEF.eq(largestDEF)) ? temp : heap[j];
+    	    }
+    	    next = (largestDEF.neq(iDEF) & iDEF.eq(next)) ? largestDEF : next;
+         }
+        }
+        
+        DFEVar result = heap[0];
+		io.output("z", result, dfeInt(32));
+	}
+	
+	int left(int i)    { return (2*i + 1);  }
+    int right(int i)   { return (2*i + 2);  }
+}
