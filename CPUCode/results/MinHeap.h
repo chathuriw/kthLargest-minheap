@@ -20,13 +20,11 @@ extern "C" {
  * \brief Basic static function for the interface 'default'.
  * 
  * \param [in] param_N Interface Parameter "N".: Number of data items to process
- * \param [in] instream_x The stream should be of size (param_N * 4) bytes.
  * \param [in] instream_y The stream should be of size (param_N * 4) bytes.
  * \param [out] outstream_z The stream should be of size (param_N * 4) bytes.
  */
 void MinHeap(
 	int32_t param_N,
-	const int32_t *instream_x,
 	const int32_t *instream_y,
 	int32_t *outstream_z);
 
@@ -39,14 +37,12 @@ void MinHeap(
  * 
  * 
  * \param [in] param_N Interface Parameter "N".: Number of data items to process
- * \param [in] instream_x The stream should be of size (param_N * 4) bytes.
  * \param [in] instream_y The stream should be of size (param_N * 4) bytes.
  * \param [out] outstream_z The stream should be of size (param_N * 4) bytes.
  * \return A handle on the execution status, or NULL in case of error.
  */
 max_run_t *MinHeap_nonblock(
 	int32_t param_N,
-	const int32_t *instream_x,
 	const int32_t *instream_y,
 	int32_t *outstream_z);
 
@@ -56,7 +52,6 @@ max_run_t *MinHeap_nonblock(
  */
 typedef struct { 
 	int32_t param_N; /**<  [in] Interface Parameter "N".: Number of data items to process */
-	const int32_t *instream_x; /**<  [in] The stream should be of size (param_N * 4) bytes. */
 	const int32_t *instream_y; /**<  [in] The stream should be of size (param_N * 4) bytes. */
 	int32_t *outstream_z; /**<  [out] The stream should be of size (param_N * 4) bytes. */
 } MinHeap_actions_t;

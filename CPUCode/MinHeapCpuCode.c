@@ -184,28 +184,33 @@ void kthLargestArray(int k, int *array, int arraySize) {
         // printArray(minheap.harr, minheap.heap_size);
     }
     // Root of heap is k'th largest element
-    printf("K'th largest element is %d\n", getMin(&minheap));
+    printf("K th largest element for whole array = %d\n", getMin(&minheap));
 }
 
-#define ARRAY_SIZE 13
+#define ARRAY_SIZE 64
 
 int main()
 {
 	int k = 3;
     int elements = ARRAY_SIZE;
-    int array[13] = {2, 4, 4, 5, 6, 3, 2, 1, 10, 11, 9}, i = 0;
-    int out[elements + 3];
+    int array[64] = {2, 4, 4, 5, 6, 3, 2, 1, 10, 11,
+                     9, 20, 1, 14, 15, 30, 21, 25, 28, 7, 
+                     21, 31, 40, 44, 55, 12, 17, 24, 28, 36,
+                     22, 32, 41, 45, 50, 13, 18, 26, 29, 37, 
+                     23, 33, 42, 46, 51, 16, 19, 27, 35, 38, 
+                     2, 4, 4, 5, 6, 3, 2, 1, 10, 11,
+                     9, 20, 1, 14}, i = 0;
+    int out[elements];
     int heap[3];
-    for (i = 0; i < elements; i++) {
-    	array[i] = i + 1;
-    }
     
     for (i = 0; i < 3; i++) {
     	heap[i] = 0;
     }
     
-    MinHeap(elements + 3, heap, array, out);
+    MinHeap(64, array, out);
+    printf("k th largest element with a sliding window of size 10 for k = %d\n", k);
     printArray(out, elements);
+    printf("k th largest in whole array for k = %d\n", k);
     kthLargestArray(k, array, elements);
     return 0;
 }

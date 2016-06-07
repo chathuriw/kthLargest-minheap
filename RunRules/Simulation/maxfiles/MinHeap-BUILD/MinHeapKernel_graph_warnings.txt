@@ -1,373 +1,379 @@
 *** After kernel graph-pass 'Init Graph' ***
-node "{HWOffsetFix:32, 0, TWOSCOMPLEMENT}\n0x00000000; 0.0" (ID 80) has unconnected outputs: [value]
+node "{HWOffsetFix:32, 0, UNSIGNED}\n0x00000003; 3.0" (ID 0) has unconnected outputs: [value]
 stack trace of node origin follows:
 	com.maxeler.maxcompiler.v2.kernelcompiler.stdlib.core.Constant.var(Constant.java:96)
-	minheap.MinHeapKernel.<init>(MinHeapKernel.maxj:51)
+	minheap.MinHeapKernel.<init>(MinHeapKernel.maxj:15)
 	minheap.MinHeapManager.main(MinHeapManager.maxj:10)
 	
-node "+" (ID 158) has unconnected outputs: [result]
-stack trace of node origin follows:
-	com.maxeler.maxcompiler.v2.kernelcompiler.types.base.DFEVar.add(DFEVar.java:891)
-	minheap.MinHeapKernel.<init>(MinHeapKernel.maxj:59)
-	minheap.MinHeapManager.main(MinHeapManager.maxj:10)
-	
-node "+" (ID 160) has unconnected outputs: [result]
-stack trace of node origin follows:
-	com.maxeler.maxcompiler.v2.kernelcompiler.types.base.DFEVar.add(DFEVar.java:891)
-	minheap.MinHeapKernel.<init>(MinHeapKernel.maxj:60)
-	minheap.MinHeapManager.main(MinHeapManager.maxj:10)
-	
-node "+" (ID 212) has unconnected outputs: [result]
-stack trace of node origin follows:
-	com.maxeler.maxcompiler.v2.kernelcompiler.types.base.DFEVar.add(DFEVar.java:891)
-	minheap.MinHeapKernel.<init>(MinHeapKernel.maxj:59)
-	minheap.MinHeapManager.main(MinHeapManager.maxj:10)
-	
-node "+" (ID 214) has unconnected outputs: [result]
-stack trace of node origin follows:
-	com.maxeler.maxcompiler.v2.kernelcompiler.types.base.DFEVar.add(DFEVar.java:891)
-	minheap.MinHeapKernel.<init>(MinHeapKernel.maxj:60)
-	minheap.MinHeapManager.main(MinHeapManager.maxj:10)
-	
-node "MUX" (ID 262) has unconnected outputs: [result]
-stack trace of node origin follows:
-	com.maxeler.maxcompiler.v2.kernelcompiler.types.base.DFEVar.ternaryIf(DFEVar.java:1160)
-	minheap.MinHeapKernel.<init>(MinHeapKernel.maxj:84)
-	minheap.MinHeapManager.main(MinHeapManager.maxj:10)
-	
-node "{HWOffsetFix:32, 0, TWOSCOMPLEMENT}\n0x00000000; 0.0" (ID 265) has unconnected outputs: [value]
+node "{HWOffsetFix:32, 0, TWOSCOMPLEMENT}\n0x00000000; 0.0" (ID 70) has unconnected outputs: [value]
 stack trace of node origin follows:
 	com.maxeler.maxcompiler.v2.kernelcompiler.stdlib.core.Constant.var(Constant.java:96)
-	minheap.MinHeapKernel.<init>(MinHeapKernel.maxj:51)
+	minheap.MinHeapKernel.<init>(MinHeapKernel.maxj:52)
 	minheap.MinHeapManager.main(MinHeapManager.maxj:10)
 	
-node "+" (ID 343) has unconnected outputs: [result]
+node "+" (ID 148) has unconnected outputs: [result]
 stack trace of node origin follows:
 	com.maxeler.maxcompiler.v2.kernelcompiler.types.base.DFEVar.add(DFEVar.java:891)
-	minheap.MinHeapKernel.<init>(MinHeapKernel.maxj:59)
+	minheap.MinHeapKernel.<init>(MinHeapKernel.maxj:64)
 	minheap.MinHeapManager.main(MinHeapManager.maxj:10)
 	
-node "+" (ID 345) has unconnected outputs: [result]
+node "+" (ID 150) has unconnected outputs: [result]
 stack trace of node origin follows:
 	com.maxeler.maxcompiler.v2.kernelcompiler.types.base.DFEVar.add(DFEVar.java:891)
-	minheap.MinHeapKernel.<init>(MinHeapKernel.maxj:60)
+	minheap.MinHeapKernel.<init>(MinHeapKernel.maxj:65)
 	minheap.MinHeapManager.main(MinHeapManager.maxj:10)
 	
-node "+" (ID 397) has unconnected outputs: [result]
+node "+" (ID 202) has unconnected outputs: [result]
 stack trace of node origin follows:
 	com.maxeler.maxcompiler.v2.kernelcompiler.types.base.DFEVar.add(DFEVar.java:891)
-	minheap.MinHeapKernel.<init>(MinHeapKernel.maxj:59)
+	minheap.MinHeapKernel.<init>(MinHeapKernel.maxj:64)
 	minheap.MinHeapManager.main(MinHeapManager.maxj:10)
 	
-node "+" (ID 399) has unconnected outputs: [result]
+node "+" (ID 204) has unconnected outputs: [result]
 stack trace of node origin follows:
 	com.maxeler.maxcompiler.v2.kernelcompiler.types.base.DFEVar.add(DFEVar.java:891)
-	minheap.MinHeapKernel.<init>(MinHeapKernel.maxj:60)
+	minheap.MinHeapKernel.<init>(MinHeapKernel.maxj:65)
 	minheap.MinHeapManager.main(MinHeapManager.maxj:10)
 	
-node "MUX" (ID 447) has unconnected outputs: [result]
+node "MUX" (ID 252) has unconnected outputs: [result]
 stack trace of node origin follows:
 	com.maxeler.maxcompiler.v2.kernelcompiler.types.base.DFEVar.ternaryIf(DFEVar.java:1160)
-	minheap.MinHeapKernel.<init>(MinHeapKernel.maxj:84)
+	minheap.MinHeapKernel.<init>(MinHeapKernel.maxj:89)
 	minheap.MinHeapManager.main(MinHeapManager.maxj:10)
 	
-node "{HWOffsetFix:32, 0, TWOSCOMPLEMENT}\n0x00000000; 0.0" (ID 450) has unconnected outputs: [value]
+node "{HWOffsetFix:32, 0, TWOSCOMPLEMENT}\n0x00000000; 0.0" (ID 255) has unconnected outputs: [value]
 stack trace of node origin follows:
 	com.maxeler.maxcompiler.v2.kernelcompiler.stdlib.core.Constant.var(Constant.java:96)
-	minheap.MinHeapKernel.<init>(MinHeapKernel.maxj:51)
+	minheap.MinHeapKernel.<init>(MinHeapKernel.maxj:52)
 	minheap.MinHeapManager.main(MinHeapManager.maxj:10)
 	
-node "+" (ID 528) has unconnected outputs: [result]
+node "+" (ID 333) has unconnected outputs: [result]
 stack trace of node origin follows:
 	com.maxeler.maxcompiler.v2.kernelcompiler.types.base.DFEVar.add(DFEVar.java:891)
-	minheap.MinHeapKernel.<init>(MinHeapKernel.maxj:59)
+	minheap.MinHeapKernel.<init>(MinHeapKernel.maxj:64)
 	minheap.MinHeapManager.main(MinHeapManager.maxj:10)
 	
-node "+" (ID 530) has unconnected outputs: [result]
+node "+" (ID 335) has unconnected outputs: [result]
 stack trace of node origin follows:
 	com.maxeler.maxcompiler.v2.kernelcompiler.types.base.DFEVar.add(DFEVar.java:891)
-	minheap.MinHeapKernel.<init>(MinHeapKernel.maxj:60)
+	minheap.MinHeapKernel.<init>(MinHeapKernel.maxj:65)
 	minheap.MinHeapManager.main(MinHeapManager.maxj:10)
 	
-node "+" (ID 582) has unconnected outputs: [result]
+node "+" (ID 387) has unconnected outputs: [result]
 stack trace of node origin follows:
 	com.maxeler.maxcompiler.v2.kernelcompiler.types.base.DFEVar.add(DFEVar.java:891)
-	minheap.MinHeapKernel.<init>(MinHeapKernel.maxj:59)
+	minheap.MinHeapKernel.<init>(MinHeapKernel.maxj:64)
 	minheap.MinHeapManager.main(MinHeapManager.maxj:10)
 	
-node "+" (ID 584) has unconnected outputs: [result]
+node "+" (ID 389) has unconnected outputs: [result]
 stack trace of node origin follows:
 	com.maxeler.maxcompiler.v2.kernelcompiler.types.base.DFEVar.add(DFEVar.java:891)
-	minheap.MinHeapKernel.<init>(MinHeapKernel.maxj:60)
+	minheap.MinHeapKernel.<init>(MinHeapKernel.maxj:65)
 	minheap.MinHeapManager.main(MinHeapManager.maxj:10)
 	
-node "MUX" (ID 632) has unconnected outputs: [result]
+node "MUX" (ID 437) has unconnected outputs: [result]
 stack trace of node origin follows:
 	com.maxeler.maxcompiler.v2.kernelcompiler.types.base.DFEVar.ternaryIf(DFEVar.java:1160)
-	minheap.MinHeapKernel.<init>(MinHeapKernel.maxj:84)
+	minheap.MinHeapKernel.<init>(MinHeapKernel.maxj:89)
 	minheap.MinHeapManager.main(MinHeapManager.maxj:10)
 	
-node "{HWOffsetFix:32, 0, TWOSCOMPLEMENT}\n0x00000000; 0.0" (ID 635) has unconnected outputs: [value]
+node "{HWOffsetFix:32, 0, TWOSCOMPLEMENT}\n0x00000000; 0.0" (ID 440) has unconnected outputs: [value]
 stack trace of node origin follows:
 	com.maxeler.maxcompiler.v2.kernelcompiler.stdlib.core.Constant.var(Constant.java:96)
-	minheap.MinHeapKernel.<init>(MinHeapKernel.maxj:51)
+	minheap.MinHeapKernel.<init>(MinHeapKernel.maxj:52)
 	minheap.MinHeapManager.main(MinHeapManager.maxj:10)
 	
-node "+" (ID 713) has unconnected outputs: [result]
+node "+" (ID 518) has unconnected outputs: [result]
 stack trace of node origin follows:
 	com.maxeler.maxcompiler.v2.kernelcompiler.types.base.DFEVar.add(DFEVar.java:891)
-	minheap.MinHeapKernel.<init>(MinHeapKernel.maxj:59)
+	minheap.MinHeapKernel.<init>(MinHeapKernel.maxj:64)
 	minheap.MinHeapManager.main(MinHeapManager.maxj:10)
 	
-node "+" (ID 715) has unconnected outputs: [result]
+node "+" (ID 520) has unconnected outputs: [result]
 stack trace of node origin follows:
 	com.maxeler.maxcompiler.v2.kernelcompiler.types.base.DFEVar.add(DFEVar.java:891)
-	minheap.MinHeapKernel.<init>(MinHeapKernel.maxj:60)
+	minheap.MinHeapKernel.<init>(MinHeapKernel.maxj:65)
 	minheap.MinHeapManager.main(MinHeapManager.maxj:10)
 	
-node "+" (ID 767) has unconnected outputs: [result]
+node "+" (ID 572) has unconnected outputs: [result]
 stack trace of node origin follows:
 	com.maxeler.maxcompiler.v2.kernelcompiler.types.base.DFEVar.add(DFEVar.java:891)
-	minheap.MinHeapKernel.<init>(MinHeapKernel.maxj:59)
+	minheap.MinHeapKernel.<init>(MinHeapKernel.maxj:64)
 	minheap.MinHeapManager.main(MinHeapManager.maxj:10)
 	
-node "+" (ID 769) has unconnected outputs: [result]
+node "+" (ID 574) has unconnected outputs: [result]
 stack trace of node origin follows:
 	com.maxeler.maxcompiler.v2.kernelcompiler.types.base.DFEVar.add(DFEVar.java:891)
-	minheap.MinHeapKernel.<init>(MinHeapKernel.maxj:60)
+	minheap.MinHeapKernel.<init>(MinHeapKernel.maxj:65)
 	minheap.MinHeapManager.main(MinHeapManager.maxj:10)
 	
-node "MUX" (ID 817) has unconnected outputs: [result]
+node "MUX" (ID 622) has unconnected outputs: [result]
 stack trace of node origin follows:
 	com.maxeler.maxcompiler.v2.kernelcompiler.types.base.DFEVar.ternaryIf(DFEVar.java:1160)
-	minheap.MinHeapKernel.<init>(MinHeapKernel.maxj:84)
+	minheap.MinHeapKernel.<init>(MinHeapKernel.maxj:89)
 	minheap.MinHeapManager.main(MinHeapManager.maxj:10)
 	
-node "{HWOffsetFix:32, 0, TWOSCOMPLEMENT}\n0x00000000; 0.0" (ID 820) has unconnected outputs: [value]
+node "{HWOffsetFix:32, 0, TWOSCOMPLEMENT}\n0x00000000; 0.0" (ID 625) has unconnected outputs: [value]
 stack trace of node origin follows:
 	com.maxeler.maxcompiler.v2.kernelcompiler.stdlib.core.Constant.var(Constant.java:96)
-	minheap.MinHeapKernel.<init>(MinHeapKernel.maxj:51)
+	minheap.MinHeapKernel.<init>(MinHeapKernel.maxj:52)
 	minheap.MinHeapManager.main(MinHeapManager.maxj:10)
 	
-node "+" (ID 898) has unconnected outputs: [result]
+node "+" (ID 703) has unconnected outputs: [result]
 stack trace of node origin follows:
 	com.maxeler.maxcompiler.v2.kernelcompiler.types.base.DFEVar.add(DFEVar.java:891)
-	minheap.MinHeapKernel.<init>(MinHeapKernel.maxj:59)
+	minheap.MinHeapKernel.<init>(MinHeapKernel.maxj:64)
 	minheap.MinHeapManager.main(MinHeapManager.maxj:10)
 	
-node "+" (ID 900) has unconnected outputs: [result]
+node "+" (ID 705) has unconnected outputs: [result]
 stack trace of node origin follows:
 	com.maxeler.maxcompiler.v2.kernelcompiler.types.base.DFEVar.add(DFEVar.java:891)
-	minheap.MinHeapKernel.<init>(MinHeapKernel.maxj:60)
+	minheap.MinHeapKernel.<init>(MinHeapKernel.maxj:65)
 	minheap.MinHeapManager.main(MinHeapManager.maxj:10)
 	
-node "+" (ID 952) has unconnected outputs: [result]
+node "+" (ID 757) has unconnected outputs: [result]
 stack trace of node origin follows:
 	com.maxeler.maxcompiler.v2.kernelcompiler.types.base.DFEVar.add(DFEVar.java:891)
-	minheap.MinHeapKernel.<init>(MinHeapKernel.maxj:59)
+	minheap.MinHeapKernel.<init>(MinHeapKernel.maxj:64)
 	minheap.MinHeapManager.main(MinHeapManager.maxj:10)
 	
-node "+" (ID 954) has unconnected outputs: [result]
+node "+" (ID 759) has unconnected outputs: [result]
 stack trace of node origin follows:
 	com.maxeler.maxcompiler.v2.kernelcompiler.types.base.DFEVar.add(DFEVar.java:891)
-	minheap.MinHeapKernel.<init>(MinHeapKernel.maxj:60)
+	minheap.MinHeapKernel.<init>(MinHeapKernel.maxj:65)
 	minheap.MinHeapManager.main(MinHeapManager.maxj:10)
 	
-node "MUX" (ID 1002) has unconnected outputs: [result]
+node "MUX" (ID 807) has unconnected outputs: [result]
 stack trace of node origin follows:
 	com.maxeler.maxcompiler.v2.kernelcompiler.types.base.DFEVar.ternaryIf(DFEVar.java:1160)
-	minheap.MinHeapKernel.<init>(MinHeapKernel.maxj:84)
+	minheap.MinHeapKernel.<init>(MinHeapKernel.maxj:89)
 	minheap.MinHeapManager.main(MinHeapManager.maxj:10)
 	
-node "{HWOffsetFix:32, 0, TWOSCOMPLEMENT}\n0x00000000; 0.0" (ID 1005) has unconnected outputs: [value]
+node "{HWOffsetFix:32, 0, TWOSCOMPLEMENT}\n0x00000000; 0.0" (ID 810) has unconnected outputs: [value]
 stack trace of node origin follows:
 	com.maxeler.maxcompiler.v2.kernelcompiler.stdlib.core.Constant.var(Constant.java:96)
-	minheap.MinHeapKernel.<init>(MinHeapKernel.maxj:51)
+	minheap.MinHeapKernel.<init>(MinHeapKernel.maxj:52)
 	minheap.MinHeapManager.main(MinHeapManager.maxj:10)
 	
-node "+" (ID 1083) has unconnected outputs: [result]
+node "+" (ID 888) has unconnected outputs: [result]
 stack trace of node origin follows:
 	com.maxeler.maxcompiler.v2.kernelcompiler.types.base.DFEVar.add(DFEVar.java:891)
-	minheap.MinHeapKernel.<init>(MinHeapKernel.maxj:59)
+	minheap.MinHeapKernel.<init>(MinHeapKernel.maxj:64)
 	minheap.MinHeapManager.main(MinHeapManager.maxj:10)
 	
-node "+" (ID 1085) has unconnected outputs: [result]
+node "+" (ID 890) has unconnected outputs: [result]
 stack trace of node origin follows:
 	com.maxeler.maxcompiler.v2.kernelcompiler.types.base.DFEVar.add(DFEVar.java:891)
-	minheap.MinHeapKernel.<init>(MinHeapKernel.maxj:60)
+	minheap.MinHeapKernel.<init>(MinHeapKernel.maxj:65)
 	minheap.MinHeapManager.main(MinHeapManager.maxj:10)
 	
-node "+" (ID 1137) has unconnected outputs: [result]
+node "+" (ID 942) has unconnected outputs: [result]
 stack trace of node origin follows:
 	com.maxeler.maxcompiler.v2.kernelcompiler.types.base.DFEVar.add(DFEVar.java:891)
-	minheap.MinHeapKernel.<init>(MinHeapKernel.maxj:59)
+	minheap.MinHeapKernel.<init>(MinHeapKernel.maxj:64)
 	minheap.MinHeapManager.main(MinHeapManager.maxj:10)
 	
-node "+" (ID 1139) has unconnected outputs: [result]
+node "+" (ID 944) has unconnected outputs: [result]
 stack trace of node origin follows:
 	com.maxeler.maxcompiler.v2.kernelcompiler.types.base.DFEVar.add(DFEVar.java:891)
-	minheap.MinHeapKernel.<init>(MinHeapKernel.maxj:60)
+	minheap.MinHeapKernel.<init>(MinHeapKernel.maxj:65)
 	minheap.MinHeapManager.main(MinHeapManager.maxj:10)
 	
-node "MUX" (ID 1187) has unconnected outputs: [result]
+node "MUX" (ID 992) has unconnected outputs: [result]
 stack trace of node origin follows:
 	com.maxeler.maxcompiler.v2.kernelcompiler.types.base.DFEVar.ternaryIf(DFEVar.java:1160)
-	minheap.MinHeapKernel.<init>(MinHeapKernel.maxj:84)
+	minheap.MinHeapKernel.<init>(MinHeapKernel.maxj:89)
 	minheap.MinHeapManager.main(MinHeapManager.maxj:10)
 	
-node "{HWOffsetFix:32, 0, TWOSCOMPLEMENT}\n0x00000000; 0.0" (ID 1190) has unconnected outputs: [value]
+node "{HWOffsetFix:32, 0, TWOSCOMPLEMENT}\n0x00000000; 0.0" (ID 995) has unconnected outputs: [value]
 stack trace of node origin follows:
 	com.maxeler.maxcompiler.v2.kernelcompiler.stdlib.core.Constant.var(Constant.java:96)
-	minheap.MinHeapKernel.<init>(MinHeapKernel.maxj:51)
+	minheap.MinHeapKernel.<init>(MinHeapKernel.maxj:52)
 	minheap.MinHeapManager.main(MinHeapManager.maxj:10)
 	
-node "+" (ID 1268) has unconnected outputs: [result]
+node "+" (ID 1073) has unconnected outputs: [result]
 stack trace of node origin follows:
 	com.maxeler.maxcompiler.v2.kernelcompiler.types.base.DFEVar.add(DFEVar.java:891)
-	minheap.MinHeapKernel.<init>(MinHeapKernel.maxj:59)
+	minheap.MinHeapKernel.<init>(MinHeapKernel.maxj:64)
 	minheap.MinHeapManager.main(MinHeapManager.maxj:10)
 	
-node "+" (ID 1270) has unconnected outputs: [result]
+node "+" (ID 1075) has unconnected outputs: [result]
 stack trace of node origin follows:
 	com.maxeler.maxcompiler.v2.kernelcompiler.types.base.DFEVar.add(DFEVar.java:891)
-	minheap.MinHeapKernel.<init>(MinHeapKernel.maxj:60)
+	minheap.MinHeapKernel.<init>(MinHeapKernel.maxj:65)
 	minheap.MinHeapManager.main(MinHeapManager.maxj:10)
 	
-node "+" (ID 1322) has unconnected outputs: [result]
+node "+" (ID 1127) has unconnected outputs: [result]
 stack trace of node origin follows:
 	com.maxeler.maxcompiler.v2.kernelcompiler.types.base.DFEVar.add(DFEVar.java:891)
-	minheap.MinHeapKernel.<init>(MinHeapKernel.maxj:59)
+	minheap.MinHeapKernel.<init>(MinHeapKernel.maxj:64)
 	minheap.MinHeapManager.main(MinHeapManager.maxj:10)
 	
-node "+" (ID 1324) has unconnected outputs: [result]
+node "+" (ID 1129) has unconnected outputs: [result]
 stack trace of node origin follows:
 	com.maxeler.maxcompiler.v2.kernelcompiler.types.base.DFEVar.add(DFEVar.java:891)
-	minheap.MinHeapKernel.<init>(MinHeapKernel.maxj:60)
+	minheap.MinHeapKernel.<init>(MinHeapKernel.maxj:65)
 	minheap.MinHeapManager.main(MinHeapManager.maxj:10)
 	
-node "MUX" (ID 1372) has unconnected outputs: [result]
+node "MUX" (ID 1177) has unconnected outputs: [result]
 stack trace of node origin follows:
 	com.maxeler.maxcompiler.v2.kernelcompiler.types.base.DFEVar.ternaryIf(DFEVar.java:1160)
-	minheap.MinHeapKernel.<init>(MinHeapKernel.maxj:84)
+	minheap.MinHeapKernel.<init>(MinHeapKernel.maxj:89)
 	minheap.MinHeapManager.main(MinHeapManager.maxj:10)
 	
-node "{HWOffsetFix:32, 0, TWOSCOMPLEMENT}\n0x00000000; 0.0" (ID 1375) has unconnected outputs: [value]
+node "{HWOffsetFix:32, 0, TWOSCOMPLEMENT}\n0x00000000; 0.0" (ID 1180) has unconnected outputs: [value]
 stack trace of node origin follows:
 	com.maxeler.maxcompiler.v2.kernelcompiler.stdlib.core.Constant.var(Constant.java:96)
-	minheap.MinHeapKernel.<init>(MinHeapKernel.maxj:51)
+	minheap.MinHeapKernel.<init>(MinHeapKernel.maxj:52)
 	minheap.MinHeapManager.main(MinHeapManager.maxj:10)
 	
-node "+" (ID 1453) has unconnected outputs: [result]
+node "+" (ID 1258) has unconnected outputs: [result]
 stack trace of node origin follows:
 	com.maxeler.maxcompiler.v2.kernelcompiler.types.base.DFEVar.add(DFEVar.java:891)
-	minheap.MinHeapKernel.<init>(MinHeapKernel.maxj:59)
+	minheap.MinHeapKernel.<init>(MinHeapKernel.maxj:64)
 	minheap.MinHeapManager.main(MinHeapManager.maxj:10)
 	
-node "+" (ID 1455) has unconnected outputs: [result]
+node "+" (ID 1260) has unconnected outputs: [result]
 stack trace of node origin follows:
 	com.maxeler.maxcompiler.v2.kernelcompiler.types.base.DFEVar.add(DFEVar.java:891)
-	minheap.MinHeapKernel.<init>(MinHeapKernel.maxj:60)
+	minheap.MinHeapKernel.<init>(MinHeapKernel.maxj:65)
 	minheap.MinHeapManager.main(MinHeapManager.maxj:10)
 	
-node "+" (ID 1507) has unconnected outputs: [result]
+node "+" (ID 1312) has unconnected outputs: [result]
 stack trace of node origin follows:
 	com.maxeler.maxcompiler.v2.kernelcompiler.types.base.DFEVar.add(DFEVar.java:891)
-	minheap.MinHeapKernel.<init>(MinHeapKernel.maxj:59)
+	minheap.MinHeapKernel.<init>(MinHeapKernel.maxj:64)
 	minheap.MinHeapManager.main(MinHeapManager.maxj:10)
 	
-node "+" (ID 1509) has unconnected outputs: [result]
+node "+" (ID 1314) has unconnected outputs: [result]
 stack trace of node origin follows:
 	com.maxeler.maxcompiler.v2.kernelcompiler.types.base.DFEVar.add(DFEVar.java:891)
-	minheap.MinHeapKernel.<init>(MinHeapKernel.maxj:60)
+	minheap.MinHeapKernel.<init>(MinHeapKernel.maxj:65)
 	minheap.MinHeapManager.main(MinHeapManager.maxj:10)
 	
-node "MUX" (ID 1557) has unconnected outputs: [result]
+node "MUX" (ID 1362) has unconnected outputs: [result]
 stack trace of node origin follows:
 	com.maxeler.maxcompiler.v2.kernelcompiler.types.base.DFEVar.ternaryIf(DFEVar.java:1160)
-	minheap.MinHeapKernel.<init>(MinHeapKernel.maxj:84)
+	minheap.MinHeapKernel.<init>(MinHeapKernel.maxj:89)
 	minheap.MinHeapManager.main(MinHeapManager.maxj:10)
 	
-node "{HWOffsetFix:32, 0, TWOSCOMPLEMENT}\n0x00000000; 0.0" (ID 1560) has unconnected outputs: [value]
+node "{HWOffsetFix:32, 0, TWOSCOMPLEMENT}\n0x00000000; 0.0" (ID 1365) has unconnected outputs: [value]
 stack trace of node origin follows:
 	com.maxeler.maxcompiler.v2.kernelcompiler.stdlib.core.Constant.var(Constant.java:96)
-	minheap.MinHeapKernel.<init>(MinHeapKernel.maxj:51)
+	minheap.MinHeapKernel.<init>(MinHeapKernel.maxj:52)
 	minheap.MinHeapManager.main(MinHeapManager.maxj:10)
 	
-node "+" (ID 1638) has unconnected outputs: [result]
+node "+" (ID 1443) has unconnected outputs: [result]
 stack trace of node origin follows:
 	com.maxeler.maxcompiler.v2.kernelcompiler.types.base.DFEVar.add(DFEVar.java:891)
-	minheap.MinHeapKernel.<init>(MinHeapKernel.maxj:59)
+	minheap.MinHeapKernel.<init>(MinHeapKernel.maxj:64)
 	minheap.MinHeapManager.main(MinHeapManager.maxj:10)
 	
-node "+" (ID 1640) has unconnected outputs: [result]
+node "+" (ID 1445) has unconnected outputs: [result]
 stack trace of node origin follows:
 	com.maxeler.maxcompiler.v2.kernelcompiler.types.base.DFEVar.add(DFEVar.java:891)
-	minheap.MinHeapKernel.<init>(MinHeapKernel.maxj:60)
+	minheap.MinHeapKernel.<init>(MinHeapKernel.maxj:65)
 	minheap.MinHeapManager.main(MinHeapManager.maxj:10)
 	
-node "+" (ID 1692) has unconnected outputs: [result]
+node "+" (ID 1497) has unconnected outputs: [result]
 stack trace of node origin follows:
 	com.maxeler.maxcompiler.v2.kernelcompiler.types.base.DFEVar.add(DFEVar.java:891)
-	minheap.MinHeapKernel.<init>(MinHeapKernel.maxj:59)
+	minheap.MinHeapKernel.<init>(MinHeapKernel.maxj:64)
 	minheap.MinHeapManager.main(MinHeapManager.maxj:10)
 	
-node "+" (ID 1694) has unconnected outputs: [result]
+node "+" (ID 1499) has unconnected outputs: [result]
 stack trace of node origin follows:
 	com.maxeler.maxcompiler.v2.kernelcompiler.types.base.DFEVar.add(DFEVar.java:891)
-	minheap.MinHeapKernel.<init>(MinHeapKernel.maxj:60)
+	minheap.MinHeapKernel.<init>(MinHeapKernel.maxj:65)
 	minheap.MinHeapManager.main(MinHeapManager.maxj:10)
 	
-node "MUX" (ID 1742) has unconnected outputs: [result]
+node "MUX" (ID 1547) has unconnected outputs: [result]
 stack trace of node origin follows:
 	com.maxeler.maxcompiler.v2.kernelcompiler.types.base.DFEVar.ternaryIf(DFEVar.java:1160)
-	minheap.MinHeapKernel.<init>(MinHeapKernel.maxj:84)
+	minheap.MinHeapKernel.<init>(MinHeapKernel.maxj:89)
 	minheap.MinHeapManager.main(MinHeapManager.maxj:10)
 	
-node "{HWOffsetFix:32, 0, TWOSCOMPLEMENT}\n0x00000000; 0.0" (ID 1745) has unconnected outputs: [value]
+node "{HWOffsetFix:32, 0, TWOSCOMPLEMENT}\n0x00000000; 0.0" (ID 1550) has unconnected outputs: [value]
 stack trace of node origin follows:
 	com.maxeler.maxcompiler.v2.kernelcompiler.stdlib.core.Constant.var(Constant.java:96)
-	minheap.MinHeapKernel.<init>(MinHeapKernel.maxj:51)
+	minheap.MinHeapKernel.<init>(MinHeapKernel.maxj:52)
 	minheap.MinHeapManager.main(MinHeapManager.maxj:10)
 	
-node "+" (ID 1823) has unconnected outputs: [result]
+node "+" (ID 1628) has unconnected outputs: [result]
 stack trace of node origin follows:
 	com.maxeler.maxcompiler.v2.kernelcompiler.types.base.DFEVar.add(DFEVar.java:891)
-	minheap.MinHeapKernel.<init>(MinHeapKernel.maxj:59)
+	minheap.MinHeapKernel.<init>(MinHeapKernel.maxj:64)
 	minheap.MinHeapManager.main(MinHeapManager.maxj:10)
 	
-node "+" (ID 1825) has unconnected outputs: [result]
+node "+" (ID 1630) has unconnected outputs: [result]
 stack trace of node origin follows:
 	com.maxeler.maxcompiler.v2.kernelcompiler.types.base.DFEVar.add(DFEVar.java:891)
-	minheap.MinHeapKernel.<init>(MinHeapKernel.maxj:60)
+	minheap.MinHeapKernel.<init>(MinHeapKernel.maxj:65)
 	minheap.MinHeapManager.main(MinHeapManager.maxj:10)
 	
-node "+" (ID 1877) has unconnected outputs: [result]
+node "+" (ID 1682) has unconnected outputs: [result]
 stack trace of node origin follows:
 	com.maxeler.maxcompiler.v2.kernelcompiler.types.base.DFEVar.add(DFEVar.java:891)
-	minheap.MinHeapKernel.<init>(MinHeapKernel.maxj:59)
+	minheap.MinHeapKernel.<init>(MinHeapKernel.maxj:64)
 	minheap.MinHeapManager.main(MinHeapManager.maxj:10)
 	
-node "+" (ID 1879) has unconnected outputs: [result]
+node "+" (ID 1684) has unconnected outputs: [result]
 stack trace of node origin follows:
 	com.maxeler.maxcompiler.v2.kernelcompiler.types.base.DFEVar.add(DFEVar.java:891)
-	minheap.MinHeapKernel.<init>(MinHeapKernel.maxj:60)
+	minheap.MinHeapKernel.<init>(MinHeapKernel.maxj:65)
 	minheap.MinHeapManager.main(MinHeapManager.maxj:10)
 	
-node "MUX" (ID 1909) has unconnected outputs: [result]
+node "MUX" (ID 1732) has unconnected outputs: [result]
 stack trace of node origin follows:
 	com.maxeler.maxcompiler.v2.kernelcompiler.types.base.DFEVar.ternaryIf(DFEVar.java:1160)
-	minheap.MinHeapKernel.<init>(MinHeapKernel.maxj:82)
+	minheap.MinHeapKernel.<init>(MinHeapKernel.maxj:89)
 	minheap.MinHeapManager.main(MinHeapManager.maxj:10)
 	
-node "MUX" (ID 1923) has unconnected outputs: [result]
+node "{HWOffsetFix:32, 0, TWOSCOMPLEMENT}\n0x00000000; 0.0" (ID 1735) has unconnected outputs: [value]
 stack trace of node origin follows:
-	com.maxeler.maxcompiler.v2.kernelcompiler.types.base.DFEVar.ternaryIf(DFEVar.java:1160)
-	minheap.MinHeapKernel.<init>(MinHeapKernel.maxj:82)
+	com.maxeler.maxcompiler.v2.kernelcompiler.stdlib.core.Constant.var(Constant.java:96)
+	minheap.MinHeapKernel.<init>(MinHeapKernel.maxj:52)
 	minheap.MinHeapManager.main(MinHeapManager.maxj:10)
 	
-node "MUX" (ID 1927) has unconnected outputs: [result]
+node "+" (ID 1813) has unconnected outputs: [result]
+stack trace of node origin follows:
+	com.maxeler.maxcompiler.v2.kernelcompiler.types.base.DFEVar.add(DFEVar.java:891)
+	minheap.MinHeapKernel.<init>(MinHeapKernel.maxj:64)
+	minheap.MinHeapManager.main(MinHeapManager.maxj:10)
+	
+node "+" (ID 1815) has unconnected outputs: [result]
+stack trace of node origin follows:
+	com.maxeler.maxcompiler.v2.kernelcompiler.types.base.DFEVar.add(DFEVar.java:891)
+	minheap.MinHeapKernel.<init>(MinHeapKernel.maxj:65)
+	minheap.MinHeapManager.main(MinHeapManager.maxj:10)
+	
+node "+" (ID 1867) has unconnected outputs: [result]
+stack trace of node origin follows:
+	com.maxeler.maxcompiler.v2.kernelcompiler.types.base.DFEVar.add(DFEVar.java:891)
+	minheap.MinHeapKernel.<init>(MinHeapKernel.maxj:64)
+	minheap.MinHeapManager.main(MinHeapManager.maxj:10)
+	
+node "+" (ID 1869) has unconnected outputs: [result]
+stack trace of node origin follows:
+	com.maxeler.maxcompiler.v2.kernelcompiler.types.base.DFEVar.add(DFEVar.java:891)
+	minheap.MinHeapKernel.<init>(MinHeapKernel.maxj:65)
+	minheap.MinHeapManager.main(MinHeapManager.maxj:10)
+	
+node "MUX" (ID 1899) has unconnected outputs: [result]
 stack trace of node origin follows:
 	com.maxeler.maxcompiler.v2.kernelcompiler.types.base.DFEVar.ternaryIf(DFEVar.java:1160)
-	minheap.MinHeapKernel.<init>(MinHeapKernel.maxj:84)
+	minheap.MinHeapKernel.<init>(MinHeapKernel.maxj:87)
+	minheap.MinHeapManager.main(MinHeapManager.maxj:10)
+	
+node "MUX" (ID 1913) has unconnected outputs: [result]
+stack trace of node origin follows:
+	com.maxeler.maxcompiler.v2.kernelcompiler.types.base.DFEVar.ternaryIf(DFEVar.java:1160)
+	minheap.MinHeapKernel.<init>(MinHeapKernel.maxj:87)
+	minheap.MinHeapManager.main(MinHeapManager.maxj:10)
+	
+node "MUX" (ID 1917) has unconnected outputs: [result]
+stack trace of node origin follows:
+	com.maxeler.maxcompiler.v2.kernelcompiler.types.base.DFEVar.ternaryIf(DFEVar.java:1160)
+	minheap.MinHeapKernel.<init>(MinHeapKernel.maxj:89)
 	minheap.MinHeapManager.main(MinHeapManager.maxj:10)
 	
